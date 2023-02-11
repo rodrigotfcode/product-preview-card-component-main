@@ -1,0 +1,131 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  :root {
+    --fonte1: 'Montserrat', sans-serif;
+    --fonte2: 'Fraunces', serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EAE3;
+  }
+
+  .card-container {
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .img-box img {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 5px;
+  }
+
+  .text {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .text h2 {
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 0px;
+  }
+
+  .main {
+    font-family: var(--fonte1);
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: -10px;
+    color: gray;
+    font-weight: normal;
+  }
+
+  .perfumetext {
+    font-family: var(--fonte1);
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 20px;
+    color: gray;
+    font-weight: normal;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: -60px;
+    margin-left: 8px;
+  }
+
+  #primary {
+    font-size: 35px;
+    font-family: var(--fonte2);
+    color: #3D8167;
+    margin-left: -10px;
+  }
+
+  #secondary {
+    margin-left: 15px;
+    color: gray;
+  }
+
+  .button {
+    
+    margin-bottom: 40px;
+  }
+
+  .button-add {
+    width: 236px;
+    height: 48px;
+    background-color: #3D8167;
+    border-radius: 8px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .button-add a {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-family: var(--fonte1);
+    text-decoration: none;
+  }
+
+  .button-add a:hover {
+    text-decoration: underline;
+  }
